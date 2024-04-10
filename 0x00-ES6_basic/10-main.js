@@ -1,3 +1,7 @@
-import appendToEachArrayValue from './10-loops.js';
+// eslint-disable-next-line import/no-unresolved, import/extensions
 
-console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
+import appendToEachArrayValue from './10-loops';
+
+console.log(
+  appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'),
+);

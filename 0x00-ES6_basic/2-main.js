@@ -1,5 +1,5 @@
-import getNeighborhoodsList from "./2-arrow.js";
+import getNeighborhoodsList from './2-arrow';
 
 const newNeighborhoodsList = getNeighborhoodsList();
-const res = newNeighborhoodsList.addNeighborhood("Noe Valeey");
+const res = newNeighborhoodsList.addNeighborhood('Noe Valeey');
 console.log(res);
