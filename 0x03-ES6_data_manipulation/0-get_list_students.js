@@ -4,6 +4,6 @@ export default function getListStudents() {
 
   arr.push({ id: 2, name: 'James', location: 'Columbia' });
 
-  arr.push({ id: 3, name: 'Serena', location: 'San Francisco' });
+  arr.push({ id: 5, name: 'Serena', location: 'San Francisco' });
   return arr;
 }
