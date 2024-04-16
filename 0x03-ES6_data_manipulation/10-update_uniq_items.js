@@ -1,7 +1,4 @@
-export default function updateUniqueItems(map) {
-  if (!(map instanceof Map)) {
-    throw new TypeError('map must be an instance of Map');
-  }
+export default function updateUniqueItems(map) { 
   try {
     for (const [key, value] of map) {
       if (value === 1) {
