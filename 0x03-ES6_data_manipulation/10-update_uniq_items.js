@@ -1,4 +1,4 @@
-export default function updateUniqueItems(map) { 
+export default function updateUniqueItems(map) {
   try {
     for (const [key, value] of map) {
       if (value === 1) {
