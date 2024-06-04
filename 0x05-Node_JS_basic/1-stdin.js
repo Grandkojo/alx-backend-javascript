@@ -5,7 +5,7 @@ const app = ((proc) => {
 	proc.stdout.write('Welcome to Holberton School, what is your name?\n');
 	proc.stdin.on('readable', () => {
 		const chunk = proc.stdin.read();
-		if (chunk) { proc.stdout.write(`Your name is: ${chunk}`);}
+		if (chunk) { proc.stdout.write(`Your name is: ${chunk}`); }
 	});
 	proc.stdin.on('end', () => {
 		proc.stdout.write('This important software is now closing\n');
